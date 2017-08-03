@@ -1,6 +1,7 @@
 import fresh_tomatoes
 import media
 
+#Define the six movies
 toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to life", "http://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg", "https://www.youtube.com/watch?v=vwyZH85NQC4")
 
 dunkirk = media.Movie("Dunkirk", "A movie about the battle of Dunkirk", "https://i0.wp.com/media2.slashfilm.com/slashfilm/wp/wp-content/images/dunkirk-poster.jpg", "https://www.youtube.com/watch?v=F-eMt3SrfFU")
@@ -13,8 +14,8 @@ justice_league = media.Movie("Justice League", "No idea but the trailer was cool
 
 blade_runner = media.Movie("Blade runner", "A remake of blade runner", "https://s-media-cache-ak0.pinimg.com/originals/a8/e9/0a/a8e90a844bed9e6951de16f5f6cde1e0.jpg", "https://www.youtube.com/watch?v=3cxixDgHUYw")
 
-movies = [toy_story, dunkirk, jobs, spiderman, justice_league, blade_runner]
 
+movies = [toy_story, dunkirk, jobs, spiderman, justice_league, blade_runner]
 fresh_tomatoes.open_movies_page(movies)
 
 
